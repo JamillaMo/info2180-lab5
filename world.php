@@ -23,9 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
   if(empty($country)) {
     foreach ($results as $result) {
-      echo $results['name'];
+      echo $results['country'];
     }
   }
-  echo ($stmt);
+  echo ($results);
 }
 ?>
