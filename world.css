@@ -16,19 +16,34 @@ body {
 }
 
 button {
-    background-color: aqua;
-    border-color: aqua;
-    color: rgb(11, 50, 133);
     height: 50px;
     width: 150px;
     margin-left: 5px;
     font-size: 20px;
 }
 
-button:hover {
+#lookup {
+    background-color: aqua;
+    border-color: aqua;
+    color: rgb(11, 50, 133);
+}
+
+#lookup:hover {
     background-color: rgb(11, 50, 133);
     border-color: rgb(11, 50, 133);
     color: aqua;
+}
+
+#city {
+    background-color: rgb(10, 252, 71);
+    border-color: rgb(10, 252, 71);
+    color: rgb(60, 0, 139);
+}
+
+#city:hover {
+    background-color: rgb(60, 0, 139);
+    border-color: rgb(60, 0, 139);
+    color: rgb(10, 252, 71);
 }
 
 label {
